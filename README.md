@@ -9,4 +9,4 @@
                                                             --->阿尔贝·加缪《局外人》
 
 
-![云标签效果图：](https://github.com/KevinSgun/HaveACappuccino/tree/master/art/云标签.png)
+![云标签效果图](https://github.com/KevinSgun/HaveACappuccino/tree/master/art/云标签.png)
