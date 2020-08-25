@@ -8,5 +8,5 @@
 了，未来的生活也并不比我已往的生活更真切实在。”
                                                             --->阿尔贝·加缪《局外人》
 
-云标签效果图：
-![https://github.com/KevinSgun/HaveACappuccino/tree/master/art/云标签.png]
+
+![云标签效果图：](https://github.com/KevinSgun/HaveACappuccino/tree/master/art/云标签.png)
