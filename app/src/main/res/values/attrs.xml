@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TagCloudView-->
+    <declare-styleable name="TagCloudView">
+        <attr name="tcvBackground" format="reference" />
+        <attr name="tcvChooseBackground" format="reference" />
+        <attr name="tcvTextColor" format="color" />
+        <attr name="tcvTextLeftMargin" format="dimension" />
+        <attr name="tcvTextSize" format="dimension" />
+        <attr name="tcvItemBorderVertical" format="dimension" />
+
+        <attr name="tcvTagTextLRPadding" format="dimension" />
+        <attr name="tcvTagTextTBPadding" format="dimension" />
+        <attr name="tcvRowNum" format="integer" />
+        <attr name="tcvIsStayRight" format="boolean" />
+        <attr name="tcvIsSingleSelect" format="boolean" />
+        <attr name="tcvIsMultiSelect" format="boolean" />
+        <attr name="tcvBackgroundRandom" format="boolean" />
+        <attr name="tcvResId" format="reference" /><!-- tag自定义布局的资源id-->
+    </declare-styleable>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <cn.ymh.cappuccino.widget.TagCloudView
+        android:id="@+id/normal_tag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <cn.ymh.cappuccino.widget.TagCloudView
+        android:id="@+id/right_style_tag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:tcvIsStayRight="true"
+        app:tcvBackground="@drawable/bg_theme_corner60"
+        app:tcvTextColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/normal_tag"/>
+
+    <cn.ymh.cappuccino.widget.TagCloudView
+        android:id="@+id/random_style_tag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:tcvBackgroundRandom="true"
+        app:tcvTextColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/right_style_tag"/>
+
+
+    <cn.ymh.cappuccino.widget.TagCloudView
+        android:id="@+id/single_click_tag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:tcvIsSingleSelect="true"
+        app:tcvChooseBackground="@drawable/bg_theme_corner60"
+        app:tcvTextColor="@color/colorTextGray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/random_style_tag"/>
+
+
+    <cn.ymh.cappuccino.widget.TagCloudView
+        android:id="@+id/multiply_choose_tag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:tcvIsMultiSelect="true"
+        app:tcvChooseBackground="@drawable/bg_theme_corner60"
+        app:tcvTextColor="@color/colorTextGray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/single_click_tag"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
