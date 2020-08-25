@@ -15,3 +15,5 @@ build/
 .externalNativeBuild
 .cxx
 /.idea/
+/app/src/androidTest/java/cn/ymh/cappuccino/ExampleInstrumentedTest.kt
+/app/src/test/java/cn/ymh/cappuccino/ExampleUnitTest.kt
